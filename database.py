@@ -16,7 +16,7 @@ def init_db():
     conn.commit()
     conn.close()
 
-def is_new_story(news_key: TEXT) -> bool:
+def is_new_story(news_key: str) -> bool:
     """
     چک می‌کند که آیا این خبر جدید است یا قبلاً پردازش شده؟
     اگر جدید باشد، آن را ذخیره کرده و True برمی‌گرداند.
