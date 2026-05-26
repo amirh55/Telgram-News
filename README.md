@@ -1,6 +1,12 @@
 # Telgram-News
 
 نحوه اجرای این پروژه روی سرور (VPS)
+
+دانلود پروژه:
+git clone https://github.com/amirh55/Telgram-News.git
+cd Telegram-News
+
+نصب پیش نیاز ها و اجرا:
 pip install -r requirements.txt
 python brain.py
 
