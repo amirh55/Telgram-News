@@ -7,7 +7,9 @@ git clone https://github.com/amirh55/Telgram-News.git
 cd Telegram-News
 
 نصب پیش نیاز ها و اجرا:
-pip install -r requirements.txt
+chmod +x setup.sh
+./setup.sh
+
 python brain.py
 
 گرفتن Gemini API Key:
